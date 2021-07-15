@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:wght@300&display=swap');
+
+*{
+    box-sizing: border-box; 
+}
+body{
+    font-family:  'Truculenta',sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(152, 211, 248);
+    margin: 0;
+} 
+.note{
+    background-color: white;
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+  
+}
+.note .tools{
+    background-color: rgb(211, 243, 147);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+.note .tools button {
+    background-color:rgb(248, 136, 248);
+    cursor: pointer;
+    color: rgb(248, 238, 238);
+    margin: 0.1rem;
+    font-size: 0.8rem;
+}
+.note .main{
+   
+    height: 100%;
+    width: 100%;
+    font-size: 1.2rem;
+
+}
+.note textarea{
+    outline: none;
+    font-family: inherit;
+    border: none;
+    height: 100%; 
+    width: 100%;
+
+}
+.note .hidden{
+    display: none;
+}
+.add{
+    background-color: rgb(150, 144, 238);
+    cursor: pointer;
+    border-radius: 3px;
+    border:none;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+
+}
